@@ -17,7 +17,7 @@ class Genre{
     static findByGenreId(genreType, id){
         const genreData = genresData.filter((genre) => genre.name === genreType)[0];
         const movieData = genreData.movies.filter((movie) => movie.id === id)[0];
-        return movieData;
+        return movieData.movies;
     }
 };
 module.exports = Genre;

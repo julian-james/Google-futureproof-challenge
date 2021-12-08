@@ -1,6 +1,9 @@
 const express = require("express");
 const router = express.Router();
 const Genre = require("../models/genre")
+const cors = require('cors');
+
+router.use(cors());
 
 router.get("/", (req, res) => {
     const genre = Genre.all;
