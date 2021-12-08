@@ -3,6 +3,10 @@ const router = express.Router();
 const Genre = require("../models/genre")
 const cors = require('cors');
 
+<<<<<<< HEAD
+=======
+// THIS router.use(cors()) NEEDS TO BE ABOVE OTHER CODE BLOCKS
+>>>>>>> e6c45bcbcea748850936f0749701a164595b3d4e
 router.use(cors());
 
 router.get("/", (req, res) => {
