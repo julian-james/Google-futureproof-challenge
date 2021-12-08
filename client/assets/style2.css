@@ -470,30 +470,7 @@
   
   
   
-  .p-a-a {
-    color: black;
-    padding-bottom: 22px;
-  }
-  .p-a-a h2 {
-    font-size: 18px;
-    font-weight: 500 !important;
-    border-style: solid;
-    border-width: 0 0 0.5px 0;
-    border-color: #ecedef;
-    padding-bottom: 12px;
-  }
-  .p-a-a li {
-    font-size: 15px;
-    padding: 12px 0px;
-    border-style: solid;
-    border-width: 0 0 0.5px 0;
-    border-color: #ecedef;
-  }
-  .p-a-a li a {
-    color: black;
-    text-decoration: none;
-  
-  }
+ 
   .float-right {
     float: right;
     margin: -2.5% 4px;
@@ -504,45 +481,6 @@
   
   
   
-  .p-a-s-f {
-      color: black;
-    padding-bottom: 22px;
-  }
-  
-  .p-a-s-f h2 {
-    font-size: 18px;
-    font-weight: 500 !important;
-    /*
-    border-style: solid;
-    border-width: 0 0 0.5px 0;
-    border-color: #ecedef;
-    padding-bottom: 12px;
-    */
-  }
-  .p-a-s-f a {
-      color: black;
-    text-decoration: none;
-  }
-  .p-a-s-f h3 {
-    font-size: 15px;
-    font-weight: 400;
-    text-decoration: none;
-  }
-  .p-a-s-f ul {
-    display: flex;
-  }
-  .p-a-s-f li {
-    font-size: 15px;
-    padding: 12px 0px;
-    /*
-    border-style: solid;
-    border-width: 0 0 0.5px 0;
-    border-color: #ecedef;
-    */
-  }
-  .p-a-s-f li a {
-    
-  }
   .devtools-suggest {
     border-style: solid;
     border-width: 1px;
@@ -565,22 +503,6 @@
   .text-wrap {
     display: flex;
     justify-content: wrap-around;
-  }
-  
-  .see-more {
-    border-style: solid;
-    border-radius: 20px;
-    border-width: 1px;
-    border-color: #dadce0;
-    margin: auto;
-    width: 250px;
-    text-align: center;
-    font-size: 15px;
-    padding: 7px 25px 7px 15px;
-    color: #1a0dab;
-  }
-  .see-more:hover {
-    background: #fafafa;
   }
   
   .related-search {

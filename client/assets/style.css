@@ -70,7 +70,6 @@ body {
   background: #FFF;
   font-family: 'Nunito Sans', sans-serif;
   width: 100%;
-  max-width: 1000px;
 }
 
 main {
@@ -89,45 +88,6 @@ main {
 
 
 /* nav */
-.navbar {
-  top: 0;
-  left: 0;
-  width: 100%;
-  position: absolute;
-}
-
-.topnav {
-  position: absolute;
-  overflow: hidden;
-  padding-top: 7px;
-}
-
-.topnav li {
-  float: left;
-  text-align: center;
-  padding: 10px 14px;
-  margin: 0 -15px 0 7px;
-  font-size: 14px;
-}
-
-.topnav-right {
-  float: right;
-  text-align: center;
-  display: flex;
-  padding-top: 7px;
-}
-
-.topnav-right li {
-  padding: 10px 10px;
-  font-size: 14px;
-}
-
-.topnav-right-left {
-  display: flex;
-  position: relative;
-  right: 80px;
-  
-}
 
 #app-li {
   width: 45px;
@@ -141,10 +101,14 @@ main {
   color: #5f6368;
 }
 
-nav a {
+nav a, .fa-th {
   color: #222;
+  font-size: 1.3em;
 }
 
+.fa-th {
+  font-size: 0.36em !important;
+}
 
 /*
 .nav-list {
@@ -209,9 +173,8 @@ nav a {
   color: #fff;
   position: relative;
   margin: -18px 15px 0 10px;
-  position: absolute;
   right: 6px;
-  font-size: 14px;
+  font-size: 1.3em !important;
 }
 
 .signin-btn:hover {
@@ -371,7 +334,7 @@ nav a {
 .search-btn {
   background: #f8f9fa;
   margin: 27px 5px;
-  font-size: 15px;
+  font-size: 1.3em !important;
   border-style: solid;
   border-color: #fff;
   border-width: 0.2px;
