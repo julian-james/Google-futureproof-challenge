@@ -59,6 +59,9 @@ html {
 
 
 /* Base styles */
+#results {
+  display: none;
+}
 ul {list-style: none;}
 a {
   text-decoration: none;
