@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is our Google page :D",
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
@@ -16,5 +16,13 @@
   },
   "dependencies": {
     "cors": "^2.8.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julian-james/Google-futureproof-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/julian-james/Google-futureproof-challenge/issues"
+  },
+  "homepage": "https://github.com/julian-james/Google-futureproof-challenge#readme"
 }
