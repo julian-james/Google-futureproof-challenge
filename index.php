@@ -1,1 +1,1 @@
-<?php include_once("./client/assets/home.html"); ?>
+<?php include_once("./client/home.html"); ?>
