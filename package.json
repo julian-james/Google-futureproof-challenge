@@ -7,7 +7,7 @@
     "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm start --prefix client",
-    "build:production": "node --version"     //This line ensures no 404 favicon.ico error code
+    "build:production": "node --version" 
   },
   "keywords": [],
   "author": "",
