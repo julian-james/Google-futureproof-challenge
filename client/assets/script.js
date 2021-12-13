@@ -3,7 +3,7 @@ const feelingLucky = document.querySelector('#feeling-lucky');
 
 
 const getResults = async (genre) => {
-    const response = await fetch(`http://localhost:3000/genres/${genre}`);
+    const response = await fetch(`https://gsearch-movie-by-genre.herokuapp.com//genres/${genre}`);
     const data = await response.json();
     for (let i = 0; i < 10; i++) {
         document.getElementById(`movie${i+1}`).textContent = data[i].name;
@@ -27,7 +27,7 @@ form.addEventListener('submit', fetchAllMovies);
 
 
 const getRandomMovie = async () => {
-    const response = await fetch(`http://localhost:3000/genres`);
+    const response = await fetch(`https://gsearch-movie-by-genre.herokuapp.com//genres`);
     const data = await response.json();
     const rand1 = Math.floor(Math.random() * 5);
     const rand2 = Math.floor(Math.random() * 10);
